@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "orval": "orval"
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.0",
@@ -30,6 +31,7 @@
     "@types/react-dom": "^19",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
+    "orval": "^7.5.0",
     "typescript": "^5"
   }
 }

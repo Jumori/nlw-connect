@@ -1,5 +1,3 @@
-
-
 <h1 align="center">
   NLW Connect
 </h1>
@@ -15,21 +13,21 @@
 
 </p>
 
-Table of Contents
-=================
+# Table of Contents
+
 <!--ts-->
+
 - [Table of Contents](#table-of-contents)
   - [💻 About the project](#-about-the-project)
   - [🎨 Layout](#-layout)
   - [🚀 How to run this project](#-how-to-run-this-project)
     - [Prerequisites](#prerequisites)
     - [Running web application](#running-web-application)
+    - [Backend application](#backend-application)
   - [🛠 Stacks](#-stacks)
-      - [**Website**  (React  +  TypeScript)](#website--react----typescript)
+    - [**Website** (React + TypeScript)](#website-react--typescript)
   - [🦸 Author](#-author)
   - [📝 License](#-license)
-<!--te-->
-
 
 ## 💻 About the project
 
@@ -47,11 +45,10 @@ This project layout is available at Figma:
 
 ## 🚀 How to run this project
 
-
 ### Prerequisites
 
 Before you start, you're gonna need:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [NPM](https://www.npmjs.com/)
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [NPM](https://www.npmjs.com/), [Docker](https://www.docker.com/)
 
 ### Running web application
 
@@ -69,11 +66,35 @@ $ npm install
 $ npm run dev
 ```
 
+### Backend application
+
+```bash
+# Clone backend repository
+$ git clone git@github.com:rocketseat-education/nlw-connect-node.git
+
+# Access this project directory in your terminal/cmd
+$ cd nlw-connect-node
+
+# Run docker containers
+$ docker compose up -d
+
+# Install project dependencies
+$ npm install
+
+# Create local database
+$ npm run db:migrate
+
+# Run local node application
+$ npm run dev
+
+# Access localhost:3333/docs for Swagger documentation
+```
+
 ## 🛠 Stacks
 
 The following tools were used in this project:
 
-#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
 
 - **[Vite](https://vitejs.dev/)**
 - **[Tailwind CSS](https://tailwindcss.com/)**
