@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch --env-file=.env src/server.ts",
-    "prepare": "cd ../ && husky server/.husky"
+    "prepare": "cd ../ && husky server/.husky",
+    "build": "tsup-node",
+    "serve": "node --env-file=.env dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +30,7 @@
     "drizzle-kit": "0.30.4",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
+    "tsup": "^8.3.6",
     "tsx": "^4.19.3",
     "typescript": "^5.7.3"
   }
