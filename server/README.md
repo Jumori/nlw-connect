@@ -25,7 +25,7 @@
     - [Running web application](#running-web-application)
     - [Backend application](#backend-application)
   - [🛠 Stacks](#-stacks)
-    - [**Website** (Node + TypeScript)](#website-node--typescript)
+    - [**Server** (Node + TypeScript)](#server-node--typescript)
   - [🦸 Author](#-author)
   - [📝 License](#-license)
 
@@ -91,7 +91,7 @@ $ npm run dev
 
 The following tools were used in this project:
 
-#### **Website** ([Node](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
+#### **Server** ([Node](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
 
 - **[Fastify](https://fastify.dev/)**
 - **[Drizzle](https://orm.drizzle.team/)**
