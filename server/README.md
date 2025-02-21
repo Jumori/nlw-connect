@@ -25,7 +25,7 @@
     - [Running web application](#running-web-application)
     - [Backend application](#backend-application)
   - [🛠 Stacks](#-stacks)
-    - [**Website** (React + TypeScript)](#website-react--typescript)
+    - [**Website** (Node + TypeScript)](#website-node--typescript)
   - [🦸 Author](#-author)
   - [📝 License](#-license)
 
@@ -33,7 +33,7 @@
 
 This project were made during **NLW Connect** offered by [Rocketseat](https://lp.rocketseat.com.br/).
 
-This project is a responsive website for event registrations and referrals.
+This project is a server application for event registrations and referrals.
 
 ## 🎨 Layout
 
@@ -91,11 +91,12 @@ $ npm run dev
 
 The following tools were used in this project:
 
-#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
+#### **Website** ([Node](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
 
-- **[Vite](https://vitejs.dev/)**
-- **[Tailwind CSS](https://tailwindcss.com/)**
-- **[Next.js](https://nextjs.org/)**
+- **[Fastify](https://fastify.dev/)**
+- **[Drizzle](https://orm.drizzle.team/)**
+- **[Redis](https://redis.io/)**
+- **[PostgreSQL](https://www.postgresql.org/)**
 
 > See more in [package.json](./package.json)
 
